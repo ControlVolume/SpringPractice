@@ -8,7 +8,9 @@
     <mvc:resources mapping="/resources/**" location="/resources/" />
     <context:component-scan base-package="com.fastcampus.ch2" />
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
+<!--        접두사-->
         <property name="prefix" value="/WEB-INF/views/" />
+<!--        접미사-->
         <property name="suffix" value=".jsp" />
     </bean>
 </beans>
